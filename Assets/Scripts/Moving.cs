@@ -17,7 +17,7 @@ public class Moving : MonoBehaviour
         _x2 = x2;
         _y2 = y2;
         _combine = combine;
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(1.2f * x2 - 1.8f, 1.2f * y2 - 1.8f, 0), 0.03f);
+        transform.position = Vector3.MoveTowards(transform.position, new Vector3(1.2f * x2 - 1.8f, 1.2f * y2 - 1.8f, 0), 0.3f);
 
         if (transform.position == new Vector3(1.2f * x2 - 1.8f, 1.2f * y2 - 1.8f, 0))
         {
